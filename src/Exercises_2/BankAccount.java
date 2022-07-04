@@ -1,14 +1,14 @@
 package Exercises_2;
 
 public class BankAccount {
-//    1.Am o clasa BankAccount(owner, accountNb, balance) cu behavior: getAccountDetails(toate detaliile contului), deposit(), withdraw().
-//      Am o clasa SavingsAccount care mosteneste clasa BankAccount si care poate sa faca operatiuni pe cont: adaugare, scoatere bani.
+//    1.A class BankAccount(owner, accountNb, balance) with behavior: getAccountDetails(all details), deposit(), withdraw().
+//      A class SavingsAccount that inherits class BankAccount and which can make: deposit, withdraw money.
 //
-//    Am si suma curenta din cont pe care o tin intr-o constanta.
+//    I keep the current amount of money in a constant.
 //
-//    Implementeaza clasele, adauga si scoate bani din cont si obtine umatoarea secventa:
+//    Implement the classes, add and withdraw money from the account and obtain the following sequence:
 //
-//    Contul 09434242432232 cu balanta 1234.
+//    Account 09434242432232 with balance 1234.
 
     private String owner;
     String accountNb;
