@@ -76,7 +76,6 @@ public class SavingsAccount extends BankAccount {
         System.out.print("Debts:       " + sav1.withdraw() + " + " + sav1.withdraw(12) + " = " + sav1.withdraw(sav1.withdraw(), sav1.withdraw(12)) + " RON *****");
         System.out.println();
         System.out.println("  " + sav1.getAccountDetails(sav1.withdraw(sav1.withdraw(), sav1.withdraw(12))) + "   *****  is the remaining amount after paying new debts  *****");
-
-
+        
     }
 }

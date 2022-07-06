@@ -14,7 +14,6 @@ public class BankAccount {
     String accountNb;
     float balance;
 
-
     public BankAccount(String owner, String accountNb, float balance) {
         this.owner = owner;
         this.accountNb = accountNb;
