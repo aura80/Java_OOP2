@@ -67,15 +67,15 @@ public class SavingsAccount extends BankAccount {
         System.out.println("--- After paying " + sav1.withdraw(12) + " RON, for managing account ");
         System.out.println(" -  After taking money:    " + sav1.balance + " - " + (sav1.withdraw() + sav1.withdraw(12)) + " = " + sav1.withdraw(sav1.withdraw() + sav1.withdraw(12)) + " RON     remaining in the account");
         System.out.println("\n***   " + sav1.getAccountDetails());
-        System.out.println(" +  After adding money:             " + sav1.deposit(60000) + " RON ");
+        System.out.println(" +  After adding money:             " + sav1.deposit(80000) + " RON ");
         System.out.println(" +  After adding money:             " + sav1.deposit(300000) + " RON ");
         System.out.println(" -  After taking money:             " + sav1.withdraw(3.1f) + " RON ");
         System.out.println(" +  After adding money:             " + sav1.deposit(400033.5f) + " RON ");
         System.out.println("\n***   " + sav1.getAccountDetails());
         System.out.println();
-        System.out.print("Debts:       " + sav1.withdraw() + " + " + sav1.withdraw(12) + " = " + sav1.withdraw(sav1.withdraw(), sav1.withdraw(12)) + " RON *****");
+        System.out.print("Debts:       " + sav1.withdraw() + " (as 5%)  +  " + sav1.withdraw(12) + " (admin) = " + sav1.withdraw(sav1.withdraw(), sav1.withdraw(12)) + " RON *****");
         System.out.println();
         System.out.println("  " + sav1.getAccountDetails(sav1.withdraw(sav1.withdraw(), sav1.withdraw(12))) + "   *****  is the remaining amount after paying new debts  *****");
-        
+
     }
 }
